@@ -14,7 +14,25 @@ aker = (intCheck("Gimme an integer between 0 and 1000000:\n"))
 if (aker<=1000000 and aker>0):
 	latin=""
 	while (aker!=0):
-		if (aker>=1000):
+		if (aker>=1000000):
+			v=1000000
+			latin+="-M"
+		elif (aker>=500000):
+			v=500000
+			latin+="-D"
+		elif (aker>=100000):
+			v=100000
+			latin+="-C"
+		elif (aker>=50000):
+			v=50000
+			latin+="-L"
+		elif (aker>=10000):
+			v=10000
+			latin+="-X"
+		elif (aker>=5000):
+			v=5000
+			latin+="-V"
+		elif (aker>=1000):
 			v=1000
 			latin+="M"
 		elif (aker>=900):
@@ -55,7 +73,5 @@ if (aker<=1000000 and aker>0):
 			latin+="I"
 		aker=aker-v
 print (latin)
-
-
 
 
