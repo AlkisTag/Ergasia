@@ -12,4 +12,4 @@ def intCheck(mes):
 
 xronos=(intCheck("Gimme the year:\n"))
 mhnas=(intCheck("Gimme a month:\n"))
-print(calendar.month(xronos, mhnas))
+print(calendar.month(xronos, mhnas)) #Elpizo na epitrepetai h calendar kathos oti den epitrepetai to exete grapsei mono gia thn askhsh 7
